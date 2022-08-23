@@ -1,4 +1,4 @@
-# Experimentalrasis skin for USC 
+# ExperimentalRasis skin for USC 
 
 Project Starter: SMUFED
 
