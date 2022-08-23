@@ -15,6 +15,8 @@ Project Starter: SMUFED
 
 ## Misc. Help
 - SMUFED
+- RealFD
+- AAuqa.kun
 
 ## Beta Testing
 - SMUFED
