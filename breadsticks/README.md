@@ -7,7 +7,7 @@ Project Starter: SMUFED
 - RealFD
 
 ## Graphics
--SMUFED
+- SMUFED
 
 ## Translation
 - SMUFED
