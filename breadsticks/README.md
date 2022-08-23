@@ -1,6 +1,6 @@
 # We're Gracing the voltex
-This is an really Engracing theme
-And bonus you can plan ENGRACING SONGS!!!
+- This is an really Engracing theme
+- And bonus you can plan ENGRACING SONGS!!!
 
 # ExperimentalGrace skin for USC 
 Im Gracing Myself
