@@ -1,37 +1,43 @@
-# ExperimentalGear skin for USC 
+# We're Gracing the voltex
+- This is an really Engracing theme
+- And bonus you can play ENGRACING SONGS!!!
 
-Project Starter: GSK Bladez
+# ExperimentalGrace skin for USC 
+Im Gracing Myself
+
+Project Gracer: SMUFED
 
 ## Coding
-- [REDACTED]
-- Hersi
+- SMUFED
 - RealFD
-- fdigl
-- Hoshikara
-- GSK Bladez
-- Local
+- Grace
 
 ## Graphics
-- GSK Bladez
-- Neardayo
-- YellowBird
-- Dengekiko
+- SMUFED
+- Grace
 
 ## Translation
-- GSK Bladez
-- Neardayo
+- SMUFED
 - RealFD
+- Grace
 
 ## Misc. Help
-- Neardayo
-- DDX
-- GM*DEO
+- SMUFED
+- RealFD
+- AAuqa.kun
+- Grace
 
+(sorry aqua i made a grace mistake)
 ## Beta Testing
-- Gam
-- TealStar
-- Dengikiko
-- Adamyes
-- Gio
-- Mattadome
+- SMUFED
+- Grace
 
+## THIS IS A JOKE SKIN DO NOT TAKE THIS SERIOUSLY
+- SMUFED
+- Grace
+
+## GraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGrace
+GraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGraceGrace
+
+## soi
+- Rofl copter
