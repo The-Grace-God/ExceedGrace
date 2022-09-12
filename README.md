@@ -31,6 +31,8 @@ Project Gracer: SMUFED
 ## Beta Testing
 - SMUFED
 - Grace
+- RealFd
+- AAqua.kun
 
 ## THIS IS A JOKE SKIN DO NOT TAKE THIS SERIOUSLY
 - SMUFED
