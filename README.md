@@ -33,6 +33,7 @@ Project Gracer: SMUFED
 - Grace
 - RealFd
 - AAqua.kun
+- (owner of exceed skin server here)
 
 ## THIS IS A JOKE SKIN DO NOT TAKE THIS SERIOUSLY
 - SMUFED
