@@ -1,0 +1,123 @@
+{
+	"User information": {"type": "label"},
+	"username":	{
+		"type": "text",
+		"label": "Username (max 8 characters)",
+		"default": "GUEST"
+	},
+
+	"separator_a": {},
+
+	"MSG":	{
+			"type": "text",
+			"label": "Message (max 8 characters)",
+			"default": "Hellooooooo"
+		},
+
+	"separator_b": {},
+	"Animations": {"type": "label"},
+	
+	"animations_affectWithBPM": {
+		"type": "bool",
+		"label": "Affect speed of some animations with the current song's BPM",
+		"default": false
+	},
+
+	"animations_skipIntro": {
+		"type": "bool",
+		"label": "Skip intro splash screens",
+		"default": false
+	},
+
+	"separator_c": {},
+	
+	"Crew": { "type": "label" },
+	"single_idol": {
+		"label": "!!!ALWAYS MATCH THE NAME!!!",
+		"type": "text",
+		"default": "nothing"
+	},
+	"beta_idol": {
+		"label": "Toggle between Old and New Idol Mode",
+		"type": "bool",
+		"default": false
+	},
+	"static_idol": {
+		"label": "If Single Image is in ,Stactic Folder, toggle this",
+		"type": "bool",
+		"default": false
+	},
+
+	"separator_d": {},
+	"badges":{
+		"type": "selection",
+		"label": "Skill Level",
+		"default": "NONE",
+		"values": ["NONE", "SKILLED", "EXPERT", "EXPERT (MASTERY)", "LOWER PRO", 
+				"LOWER PRO (MASTERY)", "UPPER PRO", "UPPER PRO (MASTERY)", "LOWER MASTER", "LOWER MASTER (MASTERY)", 
+					"UPPER MASTER", "UPPER MASTER (MASTERY)", "GRANDMASTER", "GRANDMASTER+"]
+	},
+
+	"separator_e": {},
+
+	"words": {
+		"type": "selection",
+		"label": "Language",
+		"default": "EN",
+		"values": ["EN", "DE", "SK", "test2"]
+	},
+
+	"separator_f": {},
+	"Audio": { "type": "label" },
+
+	"audio_systemVoice": {
+		"label": "Turn on Rasis",
+		"type": "bool",
+		"default": false
+	},
+
+	"separator_g": {},
+	"Gameplay": { "type": "label" },
+
+	"gameplay_ucDifferentColor": {
+		"label": "Use different colors for UC and PUC chain numbers",
+		"type": "bool",
+		"default": false
+	},
+	
+	"gameplay_showSearchControls": {
+		"label": "Show song select controls when searching",
+		"type": "bool",
+		"default": true
+	},
+
+	"gameplay_earlyLateFor": {
+		"label": "Show Early/Late display for",
+		"type": "selection",
+		"default": "NEAR (or worse)",
+		"values": ["CRITICAL (or worse)", "NEAR (or worse)", "OFF"]
+	},
+
+	"gameplay_earlyLatePosition": {
+		"label": "Early/Late display position",
+		"type": "selection",
+		"default": "STANDARD",
+		"values": ["UPPER+", "UPPER", "STANDARD", "LOWER"]
+	},
+
+	"gameplay_msFor": {
+		"label": "Show millisecond display for",
+		"type": "selection",
+		"default": "NEAR (or worse)",
+		"values": ["ALL", "CRITICAL (or worse)", "NEAR (or worse)", "NONE"]
+	},
+
+	"separator_h": {},
+	"Debug": { "type": "label" },
+
+	"debug_showInformation": {
+		"label": "Show debug information (sometimes in the middle of the screen when you're playing)",
+		"type": "bool",
+		"default": false
+	}
+}
