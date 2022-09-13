@@ -1,3 +1,13 @@
+# V2 Is Here Baby
+- Patch Notes
+- Added Titlescreen
+- Small Bug Fixes Here And There
+- New Screens
+
+# V3 Is In The Works
+- People
+- SMUFED
+
 # We're Gracing the voltex
 - This is an really Engracing theme
 - And bonus you can play ENGRACING SONGS!!!
@@ -33,7 +43,7 @@ Project Gracer: SMUFED
 - Grace
 - RealFd
 - AAqua.kun
-- (owner of exceed skin server here)
+- GSK BLADEZ
 
 ## THIS IS A JOKE SKIN DO NOT TAKE THIS SERIOUSLY
 - SMUFED
