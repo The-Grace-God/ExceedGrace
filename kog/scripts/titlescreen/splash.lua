@@ -54,10 +54,6 @@ game.LoadSkinSample("titlescreen/splash/splash1.wav")
 game.LoadSkinSample("titlescreen/splash/swoosh.wav")
 local splash2SfxPlayed = false
 local SwooshSfxPlayed = false
-local Swoosh2SfxPlayed = false
-local Swoosh3SfxPlayed = false
-local Swoosh4SfxPlayed = false
-
 local triggerSkip = false
 
 local function calcFade(splashDuration)
@@ -309,11 +305,6 @@ local function splash6(deltaTime)
 
     if splashTimer == 0 then
         splashTimer = splash6Duration
-    end
-		
-		if not Swoosh2SfxPlayed then
-        game.PlaySample("titlescreen/splash/swoosh.wav")
-        Swoosh2SfxPlayed = true
     end
 
     splashTimer = splashTimer - deltaTime

@@ -54,14 +54,14 @@ local buttons = {
         description = lang.Challanges.ch,
         details = lang.Challanges.ch1,
     },
-    {
-        labelImage = gfx.CreateSkinImage("titlescreen/labels/friend.png", 0),
-        labelWidth = 169,
-        action = nil, -- Menu.Multiplayer,
-        description = lang.Multiplayer.mp,
-        details = lang.Multiplayer.mp2,
+	{
+        labelImage = gfx.CreateSkinImage("titlescreen/labels/normal-2.png", 0),
+        labelWidth = 384,
+        action = nil, -- Menu.Start,
+        description = lang.Start.st,
+        details = lang.Start.st2,
     },
-    {
+	{
         labelImage = gfx.CreateSkinImage("titlescreen/labels/normal.png", 0),
         labelWidth = 210,
         action = nil, -- Menu.Start,
@@ -69,22 +69,29 @@ local buttons = {
         details = lang.Start.st2,
     },
     {
-        labelImage = gfx.CreateSkinImage("titlescreen/labels/nautica.png", 0),
-        labelWidth = 230,
-        action = nil, -- Menu.DLScreen,
-        description = lang.Nautica.dls,
-        details = lang.Nautica.dls2,
+        labelImage = gfx.CreateSkinImage("titlescreen/labels/friend.png", 0),
+        labelWidth = 169,
+        action = nil, -- Menu.Multiplayer,
+        description = lang.Multiplayer.mp,
+        details = lang.Multiplayer.mp2,
     },
-    {
+	{
         labelImage = gfx.CreateSkinImage("titlescreen/labels/settings.png", 0),
-        labelWidth = 247,
+        labelWidth = 420,
         action = nil, -- Menu.Settings,
         description = lang.Settings.se,
         details = lang.Settings.se1,
     },
     {
+        labelImage = gfx.CreateSkinImage("titlescreen/labels/nautica.png", 0),
+        labelWidth = 370,
+        action = nil, -- Menu.DLScreen,
+        description = lang.Nautica.dls,
+        details = lang.Nautica.dls2,
+    },
+    {
         labelImage = gfx.CreateSkinImage("titlescreen/labels/exit.png", 0),
-        labelWidth = 110,
+        labelWidth = 225,
         action = nil, -- Menu.Exit,
         description = lang.Exit.ex,
         details = lang.Exit.ex2,
@@ -182,7 +189,7 @@ local function draw_button(button, x, y, selected, index)
             resources.images.selectedButtonOverImage, 1, 0)
     else
         if scrollingUp then
-            if (index == 3 or index == 0) then gfx.GlobalAlpha(1 - scrollTransitionScale) end
+            if (index == 3 or index == 7) then gfx.GlobalAlpha(1 - scrollTransitionScale) end
             if (index == 2 or index == 5) then gfx.GlobalAlpha(scrollTransitionScale) end
         else
             if (index == 3 or index == 6) then gfx.GlobalAlpha(1 - scrollTransitionScale) end
@@ -229,15 +236,17 @@ local function draw_buttons()
         cursorIndex,
         getCorrectedButtonIndex(cursorIndex, 1),
         getCorrectedButtonIndex(cursorIndex, 2),
+		getCorrectedButtonIndex(cursorIndex, 3),
+		getCorrectedButtonIndex(cursorIndex, 4),
     }
 
-    local yBase = Dim.design.height / 2 + SELECTOR_BAR_OFFSET_FROM_CENTER
+    local yBase = Dim.design.height / 2	+ SELECTOR_BAR_OFFSET_FROM_CENTER
 
     local centerButtonY = yBase - buttonHeight / 2 - 28 -- to fit with the selector bg
     local marginFromDesHCenter = 128
 
     if scrollingUp then
-        draw_button(buttons[indexes[5]], Dim.design.width - 512, yBase - marginFromDesHCenter - buttonHeight * 3, false,
+        draw_button(buttons[indexes[7]], Dim.design.width - 512, yBase - marginFromDesHCenter - buttonHeight * 3, false,
             0) -- Placeholder for fadeout transition
     end
 
@@ -254,11 +263,9 @@ local function draw_buttons()
 
     draw_button(buttons[indexes[4]], Dim.design.width - 512, yBase + marginFromDesHCenter + 10, false, 4)
     draw_button(buttons[indexes[5]], Dim.design.width - 512, yBase + marginFromDesHCenter + buttonHeight + 10, false, 5)
+	draw_button(buttons[indexes[6]], Dim.design.width - 512, yBase + marginFromDesHCenter + buttonHeight + 155, false, 6)
+	draw_button(buttons[indexes[7]], Dim.design.width - 512, yBase + marginFromDesHCenter + buttonHeight + 300, false, 7)
 
-    if not scrollingUp then
-        draw_button(buttons[indexes[1]], Dim.design.width - 512, yBase + marginFromDesHCenter + buttonHeight * 2, false,
-            6)
-    end
 end
 
 local function drawTexts()
