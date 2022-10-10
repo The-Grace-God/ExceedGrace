@@ -3,4 +3,6 @@
 # person behind the exceed gear skin the base of this skin 
 * gskbladez
 # people who helped with this project 
-* 
+* SiameseDerp helped with some of the scripting
+* RealFD helped with splash screens
+* AAquaKun helped with testing
