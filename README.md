@@ -4,5 +4,5 @@
 * gskbladez
 # people who helped with this project 
 * SiameseDerp helped with some of the scripting
-* RealFD helped with splash screens
+* RealFD helped with seting up the crew
 * AAquaKun helped with testing
